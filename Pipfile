@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 djangorestframework = "*"
 drf-yasg = "*"
+pymysql = "*"
 
 [dev-packages]
 
