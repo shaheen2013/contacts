@@ -11,6 +11,6 @@ class ContactSerializer(serializers.ModelSerializer):
        country = CountrySerializer(read_only=True, many=False)
        class Meta:
               model = Contact
-              fields = ['phone', 'country']
+              fields = ['id', 'phone', 'country']
               
               
